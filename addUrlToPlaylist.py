@@ -46,7 +46,7 @@ def main():
                         playlistId=playlistID,
                         resourceId=dict(
                             kind="youtube#video",
-                            videoId  =rId
+                            videoId=rId
                         )
                     )
                 )
@@ -56,7 +56,7 @@ def main():
                     id=playlistID
                 ).execute()"""
             print e
-            sys.exit(0)
+            #sys.exit(0)
 
 def getIDsFromPage(content):
     videos = []
