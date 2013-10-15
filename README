@@ -1,0 +1,5 @@
+A tool that grabs Youtube URLs from a webpage, connects to the Youtube API via OAuth2, creates a new playlist then populates it with the videos linked to on the webpage.
+
+Helpful for long lists of links, such as in music discussions, where it would be handy to play everything on the page without having to worry about clicking on the next one every 4 minutes.
+
+Usage: python addUrlToPlaylist.py url
